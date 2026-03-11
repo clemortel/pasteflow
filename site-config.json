@@ -7,6 +7,10 @@
   "ogImage": "/og.png",
   "stripePublishableKey": "pk_live_51T90VIH6seDavHdrOW0n6XVYa7gWAOCDIWAcZpYii1LHKe5SN9dJEs7MdN30KxvexN2bFep7op1dNAt41UUrvhWI00CuAFsba4",
   "stripePriceId": "",
+  "stripeProductId": "",
+  "stripePaymentLink": "",
+  "stitchProjectId": "",
+  "stitchScreenId": "",
   "metaDescription": "Pre-order your product today at a special launch price.",
   "posthogKey": "phx_YK8dHsGmhlMnKJTdViIlCFEPwxIcKOT51K9hQg7UMrJgktT",
   "posthogHost": "https://us.i.posthog.com"
