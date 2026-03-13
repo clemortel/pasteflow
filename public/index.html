@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PasteFlow - End Subscription Fatigue</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#197fe6",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#111921",
+                        "neutral-slate": "#1c2632",
+                        "neutral-border": "#2d3a4b",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+  <!-- INJECT-START -->
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phx_YK8dHsGmhlMnKJTdViIlCFEPwxIcKOT51K9hQg7UMrJgktT', {api_host: 'https://us.i.posthog.com', person_profiles: 'identified_only'});
+  </script>
+  <!-- INJECT-END -->
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 w-full border-b border-neutral-border bg-background-dark/80 backdrop-blur-md px-6 md:px-20 py-4">
+<div class="mx-auto flex max-w-[1200px] items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">content_paste_go</span>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-tight">PasteFlow</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-center gap-10">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#features">Features</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#pricing">Pricing</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#testimonials">Testimonials</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#faq">FAQ</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden sm:inline-flex text-sm font-bold hover:text-primary transition-colors">Login</button>
+<button class="flex min-w-[100px] cursor-pointer items-center justify-center rounded-lg h-10 px-5 bg-primary text-white text-sm font-bold transition-transform active:scale-95 shadow-lg shadow-primary/20">
+                            Get Started
+                        </button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="mx-auto max-w-[1200px] px-6 py-16 md:py-24">
+<div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
+<div class="flex flex-col gap-8 text-left">
+<div class="inline-flex w-fit items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-primary">
+                                New Release v2.4
+                            </div>
+<div class="flex flex-col gap-4">
+<h1 class="text-5xl font-black leading-[1.1] tracking-tight md:text-7xl">
+                                    End Subscription <span class="text-primary">Fatigue</span>
+</h1>
+<p class="max-w-[500px] text-lg text-slate-400">
+                                    PasteFlow helps you manage and consolidate your utility subscriptions. The ultimate paste app alternative for modern, high-performance workflows.
+                                </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="flex h-14 min-w-[180px] items-center justify-center rounded-xl bg-primary px-8 text-base font-bold text-white shadow-xl shadow-primary/20 transition-all hover:brightness-110">
+                                    Start Free Trial
+                                </button>
+<button class="flex h-14 min-w-[180px] items-center justify-center rounded-xl border border-neutral-border bg-neutral-slate/50 px-8 text-base font-bold hover:bg-neutral-slate">
+                                    Watch Demo
+                                </button>
+</div>
+<div class="flex items-center gap-4 text-sm text-slate-500">
+<div class="flex -space-x-2">
+<div class="h-8 w-8 rounded-full border-2 border-background-dark bg-slate-700"></div>
+<div class="h-8 w-8 rounded-full border-2 border-background-dark bg-slate-600"></div>
+<div class="h-8 w-8 rounded-full border-2 border-background-dark bg-slate-500"></div>
+</div>
+<p>Joined by 10k+ creators this week</p>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 rounded-3xl bg-primary/20 blur-3xl"></div>
+<div class="relative overflow-hidden rounded-2xl border border-neutral-border bg-neutral-slate shadow-2xl">
+<div class="h-[400px] w-full bg-cover bg-center" data-alt="Futuristic dark abstract UI dashboard mockup" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC8bspAWMcbHOGaK0uI_yokwiJswbs-6I2ZDvdKdNrZT9wq_HEw5QfBa7jE4s4JCgadweauwO_MBaOw1qWdBTv0nWGTER5yg0i1J1O4ttoZ8d0dj1KAINQCU6tzdJ5uczAqU2tkpa15cU_26oo2dQtnk0l4In3WxqAGhaEt45vf4bFFHl3Gof6bC2dqyTRjCv_RCGQG9uazcYmrVQnj3ccd4eGIEHiis2VAvqCyPs4YJITSBk_JXfpdClBA0f9An3lPxUMWgrdBPOA');"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-neutral-slate/30 py-20" id="features">
+<div class="mx-auto max-w-[1200px] px-6">
+<div class="mb-16 flex flex-col gap-4 text-center items-center">
+<h2 class="text-3xl font-bold tracking-tight md:text-5xl">Streamline Your Workflow</h2>
+<p class="max-w-[600px] text-slate-400">Experience the most efficient way to handle your digital tools without the overhead of multiple expensive subscriptions.</p>
+</div>
+<div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+<div class="group flex flex-col gap-4 rounded-2xl border border-neutral-border bg-neutral-slate/50 p-8 transition-all hover:-translate-y-1 hover:border-primary/50">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+<span class="material-symbols-outlined">bolt</span>
+</div>
+<h3 class="text-xl font-bold">Efficiency</h3>
+<p class="text-slate-400">Optimize your daily tasks with automated clipboard management and multi-device instant sync.</p>
+</div>
+<div class="group flex flex-col gap-4 rounded-2xl border border-neutral-border bg-neutral-slate/50 p-8 transition-all hover:-translate-y-1 hover:border-primary/50">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+<span class="material-symbols-outlined">payments</span>
+</div>
+<h3 class="text-xl font-bold">Cost-Savings</h3>
+<p class="text-slate-400">Consolidate dozens of niche tools into one powerful platform to reduce your monthly software spend by up to 60%.</p>
+</div>
+<div class="group flex flex-col gap-4 rounded-2xl border border-neutral-border bg-neutral-slate/50 p-8 transition-all hover:-translate-y-1 hover:border-primary/50">
+<div class="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+<span class="material-symbols-outlined">spa</span>
+</div>
+<h3 class="text-xl font-bold">Simplicity</h3>
+<p class="text-slate-400">An intuitive interface designed to stay out of your way while providing the power you need when you need it.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20" id="pricing">
+<div class="mx-auto max-w-[1200px] px-6">
+<div class="mb-16 flex flex-col gap-4 text-center items-center">
+<h2 class="text-3xl font-bold tracking-tight md:text-5xl">Transparent Pricing</h2>
+<p class="max-w-[600px] text-slate-400">Choose the plan that fits your personal or team needs.</p>
+</div>
+<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+<div class="flex flex-col gap-8 rounded-2xl border border-neutral-border bg-neutral-slate/30 p-8">
+<div class="flex flex-col gap-2">
+<h4 class="text-lg font-bold text-slate-400">Free</h4>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-black">$0</span>
+<span class="text-slate-500 font-medium">/mo</span>
+</div>
+</div>
+<button class="w-full rounded-xl bg-neutral-slate py-3 font-bold transition-colors hover:bg-neutral-border">Get Started</button>
+<ul class="flex flex-col gap-4">
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Basic history (24h)
+                                    </li>
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        1 active device
+                                    </li>
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Community support
+                                    </li>
+</ul>
+</div>
+<div class="relative flex flex-col gap-8 rounded-2xl border-2 border-primary bg-neutral-slate p-8 shadow-2xl shadow-primary/10">
+<div class="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-primary px-4 py-1 text-xs font-bold uppercase tracking-widest text-white">
+                                    Most Popular
+                                </div>
+<div class="flex flex-col gap-2">
+<h4 class="text-lg font-bold text-primary">Pro</h4>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-black">$9</span>
+<span class="text-slate-500 font-medium">/mo</span>
+</div>
+</div>
+<button class="w-full rounded-xl bg-primary py-3 font-bold text-white transition-all hover:brightness-110">Go Pro Now</button>
+<ul class="flex flex-col gap-4">
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Unlimited history
+                                    </li>
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Sync across all devices
+                                    </li>
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Advanced smart search
+                                    </li>
+<li class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Custom neon themes
+                                    </li>
+</ul>
+</div>
+<div class="flex flex-col gap-8 rounded-2xl border border-neutral-border bg-neutral-slate/30 p-8">
+<div class="flex flex-col gap-2">
+<h4 class="text-lg font-bold text-slate-400">Team</h4>
+<div class="flex items-baseline gap-1">
+<span class="text-4xl font-black">$29</span>
+<span class="text-slate-500 font-medium">/mo</span>
+</div>
+</div>
+<button class="w-full rounded-xl bg-neutral-slate py-3 font-bold transition-colors hover:bg-neutral-border">Contact Sales</button>
+<ul class="flex flex-col gap-4">
+<li class="flex items-center gap-3 text-sm text-slate-300">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Shared team clipboards
+                                    </li>
+<li class="flex items-center gap-3 text-sm text-slate-300">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Admin &amp; Security controls
+                                    </li>
+<li class="flex items-center gap-3 text-sm text-slate-300">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Priority 24/7 support
+                                    </li>
+<li class="flex items-center gap-3 text-sm text-slate-300">
+<span class="material-symbols-outlined text-primary text-xl">check_circle</span>
+                                        Custom API access
+                                    </li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-neutral-slate/10 py-20" id="testimonials">
+<div class="mx-auto max-w-[1200px] px-6">
+<h2 class="mb-12 text-center text-3xl font-bold tracking-tight">What Our Users Say</h2>
+<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+<div class="flex flex-col gap-6 rounded-xl bg-neutral-slate/50 p-6 border border-neutral-border">
+<p class="italic text-slate-300 text-lg">"PasteFlow replaced three different utility apps for me. My desktop is cleaner and my wallet is happier."</p>
+<div class="flex items-center gap-4">
+<div class="h-10 w-10 rounded-full bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+<div>
+<p class="font-bold">Sarah Jenkins</p>
+<p class="text-xs text-slate-500">UI Designer</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-6 rounded-xl bg-neutral-slate/50 p-6 border border-neutral-border">
+<p class="italic text-slate-300 text-lg">"The clipboard sync is lightning fast. I can copy code on my Mac and paste it instantly on my Windows test rig."</p>
+<div class="flex items-center gap-4">
+<div class="h-10 w-10 rounded-full bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+<div>
+<p class="font-bold">Mark Thompson</p>
+<p class="text-xs text-slate-500">Fullstack Developer</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-6 rounded-xl bg-neutral-slate/50 p-6 border border-neutral-border">
+<p class="italic text-slate-300 text-lg">"Finally a tool that understands minimalism. It stays out of my way until I need it. Absolute game changer."</p>
+<div class="flex items-center gap-4">
+<div class="h-10 w-10 rounded-full bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+<div>
+<p class="font-bold">Elena Rodriguez</p>
+<p class="text-xs text-slate-500">Content Creator</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20" id="faq">
+<div class="mx-auto max-w-[800px] px-6">
+<h2 class="mb-12 text-center text-3xl font-bold tracking-tight">Frequently Asked Questions</h2>
+<div class="flex flex-col gap-4">
+<div class="group rounded-xl border border-neutral-border bg-neutral-slate/20 p-6 transition-colors hover:bg-neutral-slate/40">
+<button class="flex w-full items-center justify-between text-left font-bold">
+                                    How does PasteFlow reduce my subscriptions?
+                                    <span class="material-symbols-outlined text-slate-500 group-hover:text-primary">expand_more</span>
+</button>
+<div class="mt-4 hidden group-focus-within:block text-slate-400 text-sm">
+                                    PasteFlow combines features like clipboard history, screenshot management, color picking, and text formatting into a single lightweight utility, allowing you to cancel multiple specialized app subscriptions.
+                                </div>
+</div>
+<div class="group rounded-xl border border-neutral-border bg-neutral-slate/20 p-6 transition-colors hover:bg-neutral-slate/40">
+<button class="flex w-full items-center justify-between text-left font-bold">
+                                    Is my data encrypted during sync?
+                                    <span class="material-symbols-outlined text-slate-500 group-hover:text-primary">expand_more</span>
+</button>
+<div class="mt-4 hidden group-focus-within:block text-slate-400 text-sm">
+                                    Yes, all your data is encrypted end-to-end using AES-256 before it ever leaves your device. We never have access to your clipboard content.
+                                </div>
+</div>
+<div class="group rounded-xl border border-neutral-border bg-neutral-slate/20 p-6 transition-colors hover:bg-neutral-slate/40">
+<button class="flex w-full items-center justify-between text-left font-bold">
+                                    Do you offer a student discount?
+                                    <span class="material-symbols-outlined text-slate-500 group-hover:text-primary">expand_more</span>
+</button>
+<div class="mt-4 hidden group-focus-within:block text-slate-400 text-sm">
+                                    We certainly do! Please reach out to our support team with your academic email to receive a 50% discount on the Pro plan.
+                                </div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-neutral-border bg-background-dark py-12">
+<div class="mx-auto max-w-[1200px] px-6">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-3">
+<div class="text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">content_paste_go</span>
+</div>
+<h2 class="text-lg font-bold leading-tight">PasteFlow</h2>
+</div>
+<div class="flex gap-8 text-sm text-slate-500">
+<a class="hover:text-slate-300" href="#">Privacy Policy</a>
+<a class="hover:text-slate-300" href="#">Terms of Service</a>
+<a class="hover:text-slate-300" href="#">Twitter</a>
+<a class="hover:text-slate-300" href="#">Support</a>
+</div>
+<p class="text-xs text-slate-600">© 2024 PasteFlow Inc. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+```<!-- INJECT-START -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var patterns = [
+      /\bcommenc/,  /\bessay/,   /\bdemarr/,    /\bacheter/,
+      /\bcommander/, /\bobtenir/, /\bs.inscrire/, /\bacces/,
+      /\bget\s*(started|access|it|early)/, /\bbuy\s*now/,
+      /\bstart\s*(now|generating|free|today)/, /\bsign\s*up/,
+      /\bjoin\s*(now|waitlist)/, /\border\s*now/, /\btry\s*(now|free|it)/,
+      /\bpurchase/, /\bcheckout/, /\blifetime\s*access/,
+      /\bpre.order/, /\breserver/, /\bsouscrire/, /\bprofiter/
+    ];
+    function normalize(s) {
+      return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+    }
+    function isInsideNavOrFooter(el) {
+      var p = el.parentElement;
+      while (p) {
+        var tag = p.tagName.toLowerCase();
+        if (tag === 'nav' || tag === 'footer' || tag === 'header') return true;
+        var role = (p.getAttribute('role') || '').toLowerCase();
+        if (role === 'navigation' || role === 'contentinfo') return true;
+        p = p.parentElement;
+      }
+      return false;
+    }
+    document.querySelectorAll('button, a[href="#"], a[href="javascript:void(0)"], a[href=""]').forEach(function(el) {
+      var raw = el.textContent.trim();
+      if (raw.length < 3 || raw.length > 60) return;
+      if (isInsideNavOrFooter(el)) return;
+      var t = normalize(raw);
+      var match = patterns.some(function(re) { return re.test(t); });
+      if (match) {
+        el.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.location.href = "https://buy.stripe.com/bJeeVdcvX7tH4Yg4ZM3wQ0d";
+        });
+      }
+    });
+  });
+</script>
+<!-- INJECT-END -->
+</body></html>
